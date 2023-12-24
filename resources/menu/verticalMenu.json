@@ -1,0 +1,28 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard-analytics"
+    },
+    {
+      "name": "Capresma",
+      "icon": "menu-icon tf-icons bx bx-user",
+      "slug": "capresma-slug",
+      "url": "/capresma/list"
+    },
+    {
+      "name": "Pemilihan",
+      "icon": "menu-icon tf-icons bx bx-user",
+      "slug": "capresma-slug",
+      "url": "/pemilihan"
+    },
+    {
+      "name": "Monitoring",
+      "icon": "menu-icon tf-icons bx bx-laptop",
+      "slug": "monitoring-slug",
+      "url": "/monitoring/list"
+    }
+  ]
+}
