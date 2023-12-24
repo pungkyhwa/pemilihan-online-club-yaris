@@ -16,7 +16,7 @@
       "name": "Pemilihan",
       "icon": "menu-icon tf-icons bx bx-user",
       "slug": "pemilihan-slug",
-      "url": "/pemilihan"
+      "url": "/pemilihan/list"
     },
     {
       "name": "Monitoring",

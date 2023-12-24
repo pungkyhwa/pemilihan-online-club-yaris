@@ -85,7 +85,7 @@ Route::get('/form/layouts-horizontal', $controller_path . '\form_layouts\Horizon
 Route::get('/tables/basic', $controller_path . '\tables\Basic@index')->name('tables-basic');
 
 Route::get('capresma/list', [CapresmaController::class, 'index'])->name('capresma-slug');
-Route::get('pemilihan', [CapresmaController::class, 'index'])->name('pemilihan-slug');
+Route::get('pemilihan/list', [HasilPemilihanController::class, 'index'])->name('pemilihan-slug');
 Route::get('/monitoring/list', [MonitoringController::class, 'index'])->name('monitoring-slug');
 //capresma
 Route::resource('capresma', CapresmaController::class);
