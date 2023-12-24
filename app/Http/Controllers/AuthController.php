@@ -19,9 +19,9 @@ class AuthController extends Controller
         date_default_timezone_set('Asia/Jakarta');
         $tgl_sekarang = date("Y-m-d");
         $jam_sekarang = date("H:i:s");
-        $tgl_buka = '2023-12-23';
+        $tgl_buka = '2023-12-24';
         $jam_buka = '09:00:00';
-        $tgl_tutup = '2023-12-24';
+        $tgl_tutup = '2024-01-01';
         $jam_tutup = '23:59:00';
         // dd( $jam_sekarang);
 
