@@ -43,7 +43,7 @@ class AuthController extends Controller
 
         }
 
-        // return view("verifikasi.index");
+        return view("verifikasi.index");
     }
 
     /**
